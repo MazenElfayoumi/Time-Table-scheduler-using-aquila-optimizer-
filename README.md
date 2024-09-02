@@ -27,3 +27,9 @@ exam_start_date = datetime.strptime('2023-06-03', '%Y-%m-%d')
 exam_end_date = datetime.strptime('2023-06-21', '%Y-%m-%d')
 
 best_solution = time_scheduler(num_exams, num_timeslots, population_size=50, max_generations=100)
+```
+## Sample of the Output:
+
+![output](https://github.com/user-attachments/assets/856cc9f4-7e97-4330-9a8a-ac56b2702644)
+
+
